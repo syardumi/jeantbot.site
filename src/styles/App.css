@@ -1,0 +1,40 @@
+.App {
+  text-align: left;
+}
+
+.container {
+  padding: 5%;
+}
+
+.btn {
+  float: right
+}
+
+.toggleNavButton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.progress {
+  height: var(--progress-bar-height);
+}
+
+.progress-bar {
+  font-weight: bold;
+}
+
+.progress > .progress-bar {
+  color: var(--progress-current-color);
+  background-color: var(--progress-bar-color);
+}
+
+.progress-bar, .progressMax, .progressCurrent {
+  font-size: 2em;
+}
+
+label {
+  font-weight: bold;
+}
