@@ -7,7 +7,7 @@ function Main() {
     <div className="Main">
       <Header />
       <Container>
-        <div style={{flexDirection: 'row', display: 'flex'}}>
+        <div style={{flexDirection: 'row', display: 'flex'}}><h2>Welcome to the land of Jeant</h2>
         </div>
       </Container>
     </div>

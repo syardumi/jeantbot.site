@@ -14,8 +14,8 @@ function Header(props) {
             />&nbsp;&nbsp;JeantBot</Navbar.Brand>
         <Nav style={{flex: 0.95}} className="justify-content-end">
           <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="https://github.com/syardumi/jeantbot">Twitch Bot</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="/twitch">Sound Effects</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="/twitch">Twitch SFX</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="https://github.com/syardumi/jeantbot">Github</Nav.Link></Nav.Item>
           {props.children}
         </Nav>
       </Navbar>
